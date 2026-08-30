@@ -1,0 +1,37 @@
+{
+  "name": "SubcontractingInquiry",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Contact Name"
+    },
+    "company_name": {
+      "type": "string",
+      "title": "Company Name"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "title": "Email"
+    },
+    "phone": {
+      "type": "string",
+      "title": "Phone Number"
+    },
+    "freight_volume": {
+      "type": "string",
+      "title": "Freight Volume / Requirements"
+    },
+    "message": {
+      "type": "string",
+      "title": "Message"
+    }
+  },
+  "required": [
+    "name",
+    "company_name",
+    "phone",
+    "freight_volume"
+  ]
+}
